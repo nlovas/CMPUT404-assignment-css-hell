@@ -1,6 +1,17 @@
 Assignment: CSS Hell
 ====================
 
+Resources and Collaboration:
+
+Part 1:
+
+Fonts:
+http://www.w3schools.com/css/css_font.asp
+
+Font size examples in pt:
+http://websemantics.co.uk/resources/font_size_conversion_chart/
+
+
 You will skin 3 project gutenberg stories with custom CSS.
 
 You will skin 2 versions of a possible professional homepage for your
@@ -11,6 +22,7 @@ Read requirements.org
 Read this comic http://theoatmeal.com/comics/design_hell
 
 git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
+
 
 License/Copyright
 =================

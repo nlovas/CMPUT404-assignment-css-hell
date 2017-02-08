@@ -1,0 +1,15 @@
+/*Assignment 3 CSS Hell Part 1
+Books chosen:
+-Grimms Fairy Tales
+-The Wonderful Wizard of Oz
+-The Jungle Book
+
+*/
+
+body { color: Black;
+       background: White;
+       margin-right: 10%;
+       margin-left: 10%;
+       font-size: 12pt; /* i have terrible eyes so i need it big-ish */
+       font-family: "Georgia", serif;
+       text-align: justify }
