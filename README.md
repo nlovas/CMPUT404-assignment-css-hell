@@ -5,12 +5,28 @@ Resources and Collaboration:
 
 Part 1:
 
+Consulted with Jillian Lovas CCID jlovas 
+
 Fonts:
 http://www.w3schools.com/css/css_font.asp
 
 Font size examples in pt:
 http://websemantics.co.uk/resources/font_size_conversion_chart/
 
+How to do backgrounds:
+http://www.w3schools.com/cssref/css3_pr_background.asp
+
+How to use a saved file for a background:
+http://www.overclock.net/t/1249732/css-background-image-using-local-file
+
+Parchment paper background:
+http://more-sky.com/WDF-558900.html
+
+hr styles:
+https://css-tricks.com/examples/hrs/
+
+Borders around images:
+https://css-tricks.com/using-css-for-image-borders/
 
 You will skin 3 project gutenberg stories with custom CSS.
 
