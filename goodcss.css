@@ -1,28 +1,86 @@
 /* The good CSS page */
+@import url('https://fonts.googleapis.com/css?family=Concert One');
 
-/* use this: http://bobbelderbos.com/2012/03/how-to-make-a-fixed-sidebar-or-header-with-css/*/
+
+/*How to create a fixed sidebar with CSS
+http://bobbelderbos.com/2012/03/how-to-make-a-fixed-sidebar-or-header-with-css/*/
+#container {
+
+	margin-left: 20%;
+	margin-right: 20%;
+	border: .5pt solid black;
+	border-radius: 25px;
+	padding: .5em;
+
+}
+
 #sidebar {
   	position: fixed;
-  	left: 0;
-  	top: 0;
-  	bottom: 0;
+  	right: 0;
+  	top: 20%;
+  	bottom: 40%;
   	background: #f2f2f2;
   	width: 180px;
   	padding: 10px;
   }
-  ..
-  #content {
-  	margin: 0 0 30px 210px;
-  	background-color: #eee;
-  }
-  #main {
-  	padding: 10px;
-  	line-height: 20; /* to fake lot of content / scrolling */
-  }
-  footer {
-  	width: 100%; 
-  	background-color: #ddd;
-  	position: fixed;
-  	bottom: 0;
-  	left: 200;
-  }
+
+.btn {
+	width: 100%;
+	height: 10%;
+}
+
+h1 {
+	font-family: 'Concert One';
+	font-size: 60pt;
+	margin-left: 20%;
+	margin-right: 30%;
+	margin-bottom: 1%;
+}
+
+h2 {
+	font-family: 'Concert One';
+	font-size: 34pt;
+	margin-left: 20%;
+	margin-right: 30%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+h3 {
+	font-family: 'Concert One';
+	font-size: 30pt;
+	margin-left: 1%;
+}
+
+h4 {
+	font-family: 'Concert One';
+	font-size: 20pt;
+}
+
+
+
+p {
+	text-indent: 1.5em;
+
+}
+
+.caption {
+	font-size: 9pt;
+	margin-left: 10%;
+}
+
+img {
+	margin-left: 10%;
+}
+
+.left{
+
+}
+
+.right{
+
+	
+
+}
+
+

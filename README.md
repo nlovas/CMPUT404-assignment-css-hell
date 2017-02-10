@@ -33,6 +33,16 @@ Part 2:
 Creating links within the page:
 http://www.computerhope.com/issues/ch000049.htm
 
+How to create a fixed sidebar with CSS
+http://bobbelderbos.com/2012/03/how-to-make-a-fixed-sidebar-or-header-with-css/
+
+Google Fonts:
+http://www.w3schools.com/howto/howto_google_fonts.asp
+
+How to import from another CSS file:
+http://stackoverflow.com/a/14676665
+on Stack Overflow Answered by ModernDesigner (http://stackoverflow.com/users/1672778/moderndesigner)
+
 You will skin 3 project gutenberg stories with custom CSS.
 
 You will skin 2 versions of a possible professional homepage for your
