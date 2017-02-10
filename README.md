@@ -28,6 +28,11 @@ https://css-tricks.com/examples/hrs/
 Borders around images:
 https://css-tricks.com/using-css-for-image-borders/
 
+Part 2:
+
+Creating links within the page:
+http://www.computerhope.com/issues/ch000049.htm
+
 You will skin 3 project gutenberg stories with custom CSS.
 
 You will skin 2 versions of a possible professional homepage for your
