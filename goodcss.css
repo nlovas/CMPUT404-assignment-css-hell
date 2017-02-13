@@ -55,32 +55,44 @@ h3 {
 h4 {
 	font-family: 'Concert One';
 	font-size: 20pt;
+	
+	
+	
 }
 
 
-
-p {
-	text-indent: 1.5em;
-
-}
-
-.caption {
+figcaption {
 	font-size: 9pt;
 	margin-left: 10%;
-}
-
-img {
-	margin-left: 10%;
-}
-
-.left{
-
-}
-
-.right{
-
 	
-
 }
 
 
+figure.right{
+
+	float: right;
+	border:  .5pt solid black;
+
+}
+
+figure.left{
+
+	float: left;
+	border:  .5pt solid grey;
+
+}
+
+.holdleft{
+	border:  .5pt solid red;
+	float: left;
+	width: 600px;
+	
+	
+}
+
+.holdright{
+	border:  .5pt solid red;
+	float: right;
+	width: 600px;
+	
+}

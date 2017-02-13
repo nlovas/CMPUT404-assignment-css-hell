@@ -43,6 +43,11 @@ How to import from another CSS file:
 http://stackoverflow.com/a/14676665
 on Stack Overflow Answered by ModernDesigner (http://stackoverflow.com/users/1672778/moderndesigner)
 
+Edited this code to make floated text wrapped images with captions:
+http://stackoverflow.com/a/29954673
+Answered by Xufox on Stack Overflow (http://stackoverflow.com/users/4642212/xufox)
+
+
 You will skin 3 project gutenberg stories with custom CSS.
 
 You will skin 2 versions of a possible professional homepage for your

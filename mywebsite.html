@@ -8,7 +8,8 @@
 <div name="topcontainer">
 <h2> Programmer Artist </h2>
 </div>
-
+</head>
+<body>
 <div id = "sidebar">
 
 <a href = "#about"><button name="about" class = "btn">About</button></a>
@@ -38,27 +39,44 @@
 
 <h3 id = "mywork">My Work</h3>
 
-<div class = "left">
+<!--
+USED ON ALL IMAGES:
+Edited this code to make floated text wrapped images with captions:
+http://stackoverflow.com/a/29954673
+Answered by Xufox on Stack Overflow (http://stackoverflow.com/users/4642212/xufox)
+-->
+
+
+<figure class = "left">
+  <a href ="mypageimages/sharemychart.png"> <img alt="ShareMyChart" src="mypageimages/sharemychart.png" width="375" /></a>
+  <figcaption>December 2016. Github (unavailable)</figcaption>
+</figure>
+<div>
+  <p>
 <h4>ShareMyChart</h4>
-<!--Put a picture here-->
-<a href="mypageimages/sharemychart.png"> <img src="mypageimages/sharemychart.png" alt="ShareMyChart" width="30%" /></a>
-<div class = "caption">
-December 2016. Github (unavailable)
-</div>
-<p>ShareMyChart is a web application created with a team in CMPUT 401 for a client. This application takes Turtle file data from the user and generates graphs.  <a href = "http://162.246.157.223/ShareMyChart_war/main.html">View ShareMyChart</a> <lang>Javascript (D3 and JQuery), SPARQL, HTML, and CSS.</lang>
-</p>
+<br/>
+    <span class = "holdright">
+ShareMyChart is a web application created with a team in CMPUT 401 for a client. This application takes Turtle file data from the user and generates graphs.  <a href = "http://162.246.157.223/ShareMyChart_war/main.html">View ShareMyChart</a> <lang>Javascript (D3 and JQuery), SPARQL, HTML, and CSS.</lang></span>
+  </p>
 </div>
 
-<div class = "right">
+
+<br/>
+
+
+<figure class = "right">
+  <a href = "mypageimages/photosynthesis.png"><img alt="PhotoSynthesis" src="mypageimages/photosynthesis.png" width="375" /></a>
+  <figcaption>April 2016. <a href ="https://github.com/CMPUT391Winter2016/proj1">Github</a></figcaption>
+</figure>
+<div>
+  <p>
 <h4>PhotoSynthesis</h4>
-<!--image goes under here -->
-<a href="mypageimages/photosynthesis.png"> <img src="mypageimages/photosynthesis.png" alt="PhotoSynthesis" width="30%" /></a>
-<div class = "caption">
-April 2016. <a href ="https://github.com/CMPUT391Winter2016/proj1">Github</a>
+<br/>
+    <span class = "holdleft">
+PhotoSynthesis is a web application created with a team in CMPUT 391. PhotoSynthesis hosts images for its users similarly to Flickr or Photobucket. Users can upload photos, join groups, and search images. Admins can generate statistics on the users of PhotoSynthesis.<lang> HTML, CSS, Java & JDBC. </lang></span>
+  </p>
 </div>
-<p>PhotoSynthesis is a web application created with a team in CMPUT 391. PhotoSynthesis hosts images for its users similarly to Flickr or Photobucket. Users can upload photos, join groups, and search images. Admins can generate statistics on the users of PhotoSynthesis.<lang> HTML, CSS, Java & JDBC. </lang>
-</p>
-</div>
+
 
 <h4>Bookwrm</h4>
 <!--put picture here-->
@@ -83,7 +101,7 @@ December 2015. <a href ="https://github.com/CMPUT301F15T06/GraceHoppers">Github<
 Put some words here
 </div>
 
-<a href="mypageimages/harvii.png"> <img src="mypageimages/harvii.png" alt="Harvii" width="15%" /></a>
+<a href="mypageimages/harvii.png"> <img src="mypageimages/harvii.png" alt="Harvii" width="15%"/></a>
 <div class = "caption">
 Put some words here
 </div>
@@ -93,7 +111,7 @@ Put some words here
 Put some words here
 </div>
 
-<a href="mypageimages/amethyst.png"> <img src="mypageimages/amethyst.png" alt="Amethyst" width="15%" /></a>
+<a href="mypageimages/amethyst.png"> <img src="mypageimages/amethyst.png" alt="Amethyst" width="15%"/></a>
 <div class = "caption">
 Put some words here
 </div>
@@ -116,6 +134,10 @@ Put some words here
 </div>
 <!-- Hobbies -->
 <h3 id="hobbies">Hobbies</h3>
+<a href="mypageimages/yukinesketch.png"> <img src="mypageimages/yukinesketch.png" alt="Yukine Sketch" width="15%" /></a>
+<div class = "caption">
+Put some words here
+</div>
 <p>My favorite hobby is art, whether it be sketching, digital art, painting, or building cosplays and props.
 </p>
 <a href="mypageimages/tricksterdave.jpg"> <img src="mypageimages/tricksterdave.jpg" alt="Trickster!Dave Cosplay" width="15%" /></a>
@@ -129,11 +151,10 @@ Put some words here
 </div>
 
 <p>I enjoy attending anime conventions and cosplay. I attend Edmonton's Animethon every year.
-Reading manga and watching anime are also pastimes of mine. 
-I love cats and I also enjoy playing video games. (Especially Pokemon)
+Reading manga and watching anime are also pastimes of mine. I'm interested in social justice and desigmatizing mental illness. I love cats and I also enjoy playing video games. (Especially Pokemon)
 </p>
 
 </div>
 
-</head>
+</body>
 </html>
