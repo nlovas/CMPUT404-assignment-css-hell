@@ -2,25 +2,29 @@
 @import url('https://fonts.googleapis.com/css?family=Concert One');
 
 
+body {
+	background: #2d2d2d;/*linear-gradient(white, #477bd1) fixed;  #4286f4, #2152a0 */
+}
+
 /*How to create a fixed sidebar with CSS
 http://bobbelderbos.com/2012/03/how-to-make-a-fixed-sidebar-or-header-with-css/*/
 #container {
 
-	margin-left: 20%;
+	margin-left: 10%;
 	margin-right: 20%;
 	border: .5pt solid black;
 	border-radius: 25px;
 	padding: .5em;
-
+	background: white;
 }
 
 #sidebar {
   	position: fixed;
   	right: 0;
-  	top: 20%;
-  	bottom: 40%;
+  	top:0;
+	bottom:0;
   	background: #f2f2f2;
-  	width: 180px;
+  	width: 15em;
   	padding: 10px;
   }
 
@@ -32,7 +36,7 @@ http://bobbelderbos.com/2012/03/how-to-make-a-fixed-sidebar-or-header-with-css/*
 h1 {
 	font-family: 'Concert One';
 	font-size: 60pt;
-	margin-left: 20%;
+	margin-left: 10%;
 	margin-right: 30%;
 	margin-bottom: 1%;
 }
@@ -40,7 +44,7 @@ h1 {
 h2 {
 	font-family: 'Concert One';
 	font-size: 34pt;
-	margin-left: 20%;
+	margin-left: 10%;
 	margin-right: 30%;
 	margin-top: 1%;
 	margin-bottom: 1%;
@@ -52,12 +56,9 @@ h3 {
 	margin-left: 1%;
 }
 
-h4 {
+fakeheader {
 	font-family: 'Concert One';
 	font-size: 20pt;
-	
-	
-	
 }
 
 
@@ -67,32 +68,55 @@ figcaption {
 	
 }
 
-
 figure.right{
 
 	float: right;
-	border:  .5pt solid black;
+	margin-right: 5em;
+	white-space: nowrap;
 
 }
 
 figure.left{
 
 	float: left;
-	border:  .5pt solid grey;
+	margin-left: 8em;
+	white-space: nowrap;
 
 }
 
 .holdleft{
-	border:  .5pt solid red;
+	
 	float: left;
 	width: 600px;
+	margin-left: 5em;
 	
 	
 }
 
 .holdright{
-	border:  .5pt solid red;
+	
 	float: right;
 	width: 600px;
+	margin-right: 5em;
+	
 	
 }
+
+p {
+text-indent: 1.5em;
+}
+
+
+/*
+How to prevent parents of floated elements frpom collapsing:
+http://stackoverflow.com/a/11597829
+Answered on stack Overflow by A.M.K (http://stackoverflow.com/users/900747/a-m-k)
+*/
+.box {
+
+	
+	display: inline-block;
+    	width: 100%; 
+
+}
+

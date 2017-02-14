@@ -47,6 +47,11 @@ Edited this code to make floated text wrapped images with captions:
 http://stackoverflow.com/a/29954673
 Answered by Xufox on Stack Overflow (http://stackoverflow.com/users/4642212/xufox)
 
+How to prevent parents of floated elements frpom collapsing:
+http://stackoverflow.com/a/11597829
+Answered on stack Overflow by A.M.K (http://stackoverflow.com/users/900747/a-m-k)
+
+
 
 You will skin 3 project gutenberg stories with custom CSS.
 
