@@ -3,46 +3,117 @@
 
 
 body {
-	background: #2d2d2d;/*linear-gradient(white, #477bd1) fixed;  #4286f4, #2152a0 */
+	background: linear-gradient(white, blue) fixed;
 	font-family: "Comic Sans MS", cursive, sans-serif;
-	font-color: yellow;
+	
 	}
 
 /*How to create a fixed sidebar with CSS
 http://bobbelderbos.com/2012/03/how-to-make-a-fixed-sidebar-or-header-with-css/*/
 #container {
 
-	margin-left: 10%;
-	margin-right: 20%;
-	/*border: .5pt solid black; */
-	/*border-radius: 25px; */
-	padding: .5em;
+	margin-left: 3%;
+	margin-right: 0;
+	border: 5pt solid green; 
+	border-radius: 25px; 
+	
 	background: #ff00d8;
+	position: absolute;
 }
 
 #sidebar {
   	position: fixed;
+	
   	right: 0;
   	top:0;
-	bottom:5%;
-  	background: #dddddd;
-  	width: 15em;
-  	padding: 10px;
+	bottom:0;
+	
+  	background: linear-gradient(blue, white) fixed;
+  	width: 30em;
+  	
   }
 
 #navigation{
 
 	position: relative;
-	top: 5%;
+	animation: moveupdown 1s linear infinite;
+	
 	bottom: 50%;
+/*
+Animation code edited from:
+http://stackoverflow.com/a/16797633
+on Stack Overflow answered by apaul34208 (http://stackoverflow.com/users/1947286/apaul34208)
+*/
+
+	-webkit-animation: floatBubble 2s infinite  normal ease-out;
+        animation: floatBubble 2s infinite  normal ease-out;
+}
+
+.linkcontainer {
+
+/*How to center text both horizontally and vertically
+http://stackoverflow.com/a/22218694
+On stack Overflow answered by Danield (http://stackoverflow.com/users/703717/danield) */
+	/*display: flex;
+	justify-content: center;
+	align-items: center;*/
+	font-size: 13pt;
+	
+	background: white;
+	text-align: center;
+	border: dotted 2em cyan;
+
+	/* How to make a div grow with your text
+	http://stackoverflow.com/a/16134175
+	on Stack Overflow answered by Niet the Dark Absol (http://stackoverflow.com/users/507674/niet-the-dark-absol)
+*/
+	margin-top: .5em;
+	margin-bottom: .5em;
+	padding: 1em;
+	/*border-style: solid;
+	border-radius: 15px;
+	border-width: .5pt;*/
+
+	
+
+	
 
 }
 
-.btn {
-	
-	font-size: 14pt;
-	padding: 2em;
-	
+
+/*
+Animation code edited from:
+http://stackoverflow.com/a/16797633
+on Stack Overflow answered by apaul34208 (http://stackoverflow.com/users/1947286/apaul34208)
+*/
+@-webkit-keyframes floatBubble {
+    0% {
+        top:18%;
+    }
+
+    50%{
+	top: 0;
+	}
+    100% {
+        top: 18%;
+    }
+}
+@keyframes floatBubble {
+    0% {
+        top:18%;
+    }
+
+    50%{
+	top: 0;
+	}
+    100% {
+        top: 18%;
+    }
+}
+
+.info{
+
+	font-size: 11pt;
 
 }
 
@@ -59,21 +130,23 @@ http://bobbelderbos.com/2012/03/how-to-make-a-fixed-sidebar-or-header-with-css/*
   background: -moz-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
   /* Standard syntax */
   background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
-	margin-left:10%;
-	margin-right:20%;
+	margin-left:5%;
+	margin-right:15%;
 	height: 4em;
 	margin-bottom: 0;
+
 
 }
 
 #name{
 
 	background: yellow;
-	margin-left: 10%;
+	margin-left: 4%;
 	margin-right: 20%;
-	margin-top: 1em;	
+		
 	height: 6em;
 	margin-bottom: 0;
+	
 	
 
 }
@@ -81,7 +154,7 @@ http://bobbelderbos.com/2012/03/how-to-make-a-fixed-sidebar-or-header-with-css/*
 .btn {
 	width: 100%;
 	height: 10%;
-	background: grey;
+	
 }
 
 h1 {
@@ -90,6 +163,9 @@ h1 {
 	/*margin-left: 10%;
 	margin-right: 20%; */
 	/*margin-bottom: 1%;*/
+	position: absolute;
+	top: 0;
+	
 	
 }
 
@@ -106,11 +182,13 @@ h3 {
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	font-size: 30pt;
 	margin-left: 1%;
+	color: green;
 }
 
 fakeheader {
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	font-size: 20pt;
+	color: green;
 }
 
 
@@ -123,15 +201,18 @@ figcaption {
 figure.right{
 
 	float: right;
-	margin-right: 5em;
+	margin-right: 9em;
 	white-space: nowrap;
+	 -ms-transform: rotate(7deg); /* IE 9 */
+    	-webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    	transform: rotate(7deg);
 
 }
 
 figure.left{
 
 	float: left;
-	margin-left: 9em;
+	margin-left: 2em;
 	white-space: nowrap;
 
 }
@@ -140,7 +221,7 @@ figure.left{
 	
 	float: left;
 	width: 550px;
-	margin-left: 8em;
+	margin-left: 4em;
 	
 	
 }
@@ -155,7 +236,10 @@ figure.left{
 }
 
 p {
-text-indent: 3em;
+text-indent: 10em;
+background: linear-gradient(white, black);
+border: 10pt dotted #ff6600;
+	border-radius: 60px;
 }
 
 
@@ -174,6 +258,7 @@ Answered on stack Overflow by A.M.K (http://stackoverflow.com/users/900747/a-m-k
 
 img{
 	border: 5pt solid blue;
+	border-radius: 60px;
 	background: white; /* some of my images have transparent backgrounds*/
 }
 
@@ -184,9 +269,9 @@ Creating a 3-column layout:
 https://www.w3schools.com/css/css3_multiple_columns.asp
 */
 
-column-count: 3;
- -webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
+column-count: 2;
+ -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
 
 
 
@@ -197,7 +282,82 @@ column-count: 3;
 position: relative;
 width: 23em;
 height: 20em;
-overflow: hidden;
-border: .5pt solid black;
+overflow: scroll;
+
+
+-ms-transform: rotate(28deg); /* IE 9 */
+    -webkit-transform: rotate(28deg); /* Chrome, Safari, Opera */
+    transform: rotate(28deg);
 
 }
+
+
+a{
+	color: pink;
+	
+
+}
+
+a:visited{
+
+	color: yellow;
+
+}
+
+a:hover{
+	color: red;
+
+}
+
+.hideme{
+	margin-left: 15%;
+}
+
+lang{
+	font-style:bold;
+	font-size: 16pt;
+	color: white;
+}
+
+.small{
+	width: 60px;
+}
+
+.medium{
+	width: 500px;
+	height: 300px;
+}
+
+.mediumtwo{
+	width: 500px;
+	height: 50px;
+}
+
+.large{
+	width: 1500px;
+}
+
+.extralarge {
+	width: 600px;
+}
+
+.cosplay{
+		 -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+	width: 300px;
+}
+
+hr{
+	border:solid 1em yellow;
+
+/*
+transform by rotation:
+https://www.w3schools.com/cssref/css3_pr_transform.asp
+*/
+	 -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+}
+
+

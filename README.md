@@ -77,6 +77,16 @@ How to make a div grow with your text
 http://stackoverflow.com/a/16134175
 on Stack Overflow answered by Niet the Dark Absol (http://stackoverflow.com/users/507674/niet-the-dark-absol)
 
+How to hide things with CSS:
+https://www.w3schools.com/css/css_display_visibility.asp
+
+Transform by rotation:
+https://www.w3schools.com/cssref/css3_pr_transform.asp
+
+Animation code edited from:
+http://stackoverflow.com/a/16797633
+on Stack Overflow answered by apaul34208 (http://stackoverflow.com/users/1947286/apaul34208)
+
 
 You will skin 3 project gutenberg stories with custom CSS.
 

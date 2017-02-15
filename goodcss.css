@@ -126,6 +126,7 @@ fakeheader {
 figcaption {
 	font-size: 9pt;
 	margin-left: 10%;
+	text-align: center;
 	
 }
 
@@ -227,3 +228,37 @@ a:hover{
 	color: blue;
 
 }
+
+.hideme{
+	display:none;
+}
+
+lang{
+	font-style:italic;
+	font-size: 11pt;
+}
+
+.small{
+	width: 260px;
+}
+
+.medium{
+	width: 300px;
+}
+
+.mediumtwo{
+	width: 375px;
+}
+
+.large{
+	width: 500px;
+}
+
+.extralarge {
+	width: 600px;
+}
+
+.cosplay{
+	width: 400px;
+}
+
