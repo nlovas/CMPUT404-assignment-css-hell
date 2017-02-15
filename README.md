@@ -51,6 +51,12 @@ How to prevent parents of floated elements frpom collapsing:
 http://stackoverflow.com/a/11597829
 Answered on stack Overflow by A.M.K (http://stackoverflow.com/users/900747/a-m-k)
 
+How to crop an image without using clip:
+http://www.squareonemd.co.uk/how-to-crop-an-image-with-a-css-class/
+
+Creating a 3-column layout:
+https://www.w3schools.com/css/css3_multiple_columns.asp
+
 
 
 You will skin 3 project gutenberg stories with custom CSS.

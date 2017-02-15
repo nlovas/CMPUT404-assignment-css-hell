@@ -12,40 +12,80 @@ http://bobbelderbos.com/2012/03/how-to-make-a-fixed-sidebar-or-header-with-css/*
 
 	margin-left: 10%;
 	margin-right: 20%;
-	border: .5pt solid black;
-	border-radius: 25px;
+	/*border: .5pt solid black; */
+	/*border-radius: 25px; */
 	padding: .5em;
-	background: white;
+	background: #dddddd;
 }
 
 #sidebar {
   	position: fixed;
   	right: 0;
   	top:0;
-	bottom:0;
-  	background: #f2f2f2;
+	bottom:5%;
+  	background: #dddddd;
   	width: 15em;
   	padding: 10px;
   }
 
+#navigation{
+
+	position: relative;
+	top: 5%;
+	bottom: 50%;
+
+}
+
+.btn {
+	
+	font-size: 14pt;
+	padding: 2em;
+	
+
+}
+
+
+#topcontainer{
+	background: grey;
+	margin-left:10%;
+	margin-right:20%;
+	height: 4em;
+	margin-bottom: 0;
+
+}
+
+#name{
+
+	background: #dddddd;
+	margin-left: 10%;
+	margin-right: 20%;
+	margin-top: 1em;	
+	height: 6em;
+	margin-bottom: 0;
+	
+
+}
+
 .btn {
 	width: 100%;
 	height: 10%;
+	background: grey;
 }
 
 h1 {
 	font-family: 'Concert One';
 	font-size: 60pt;
-	margin-left: 10%;
-	margin-right: 30%;
-	margin-bottom: 1%;
+	/*margin-left: 10%;
+	margin-right: 20%; */
+	/*margin-bottom: 1%;*/
+	
 }
 
 h2 {
 	font-family: 'Concert One';
 	font-size: 34pt;
-	margin-left: 10%;
-	margin-right: 30%;
+	/*margin-left: 10%;
+	margin-right: 30%;*/
 	margin-top: 1%;
 	margin-bottom: 1%;
 }
@@ -79,7 +119,7 @@ figure.right{
 figure.left{
 
 	float: left;
-	margin-left: 8em;
+	margin-left: 9em;
 	white-space: nowrap;
 
 }
@@ -87,8 +127,8 @@ figure.left{
 .holdleft{
 	
 	float: left;
-	width: 600px;
-	margin-left: 5em;
+	width: 550px;
+	margin-left: 8em;
 	
 	
 }
@@ -96,8 +136,8 @@ figure.left{
 .holdright{
 	
 	float: right;
-	width: 600px;
-	margin-right: 5em;
+	width: 550px;
+	margin-right: 6em;
 	
 	
 }
@@ -120,3 +160,32 @@ Answered on stack Overflow by A.M.K (http://stackoverflow.com/users/900747/a-m-k
 
 }
 
+img{
+	border: .5pt solid black;
+	background: white; /* some of my images have transparent backgrounds*/
+}
+
+#artwork{
+
+/*
+Creating a 3-column layout:
+https://www.w3schools.com/css/css3_multiple_columns.asp
+*/
+
+column-count: 3;
+ -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+
+
+
+}
+
+.rel{
+
+position: relative;
+width: 23em;
+height: 20em;
+overflow: hidden;
+border: .5pt solid black;
+
+}
