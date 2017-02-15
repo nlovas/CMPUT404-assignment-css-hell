@@ -66,6 +66,17 @@ https://i.redd.it/e5uylwsqzizx.jpg
 FeministHackerBarbie Image:
 pic.twitter.com/Wjr2d8kkyV
 
+How to center text both horizontally and vertically
+http://stackoverflow.com/a/22218694
+On stack Overflow answered by Danield (http://stackoverflow.com/users/703717/danield)
+
+Styling links:
+https://www.w3schools.com/css/css_link.asp
+
+How to make a div grow with your text
+http://stackoverflow.com/a/16134175
+on Stack Overflow answered by Niet the Dark Absol (http://stackoverflow.com/users/507674/niet-the-dark-absol)
+
 
 You will skin 3 project gutenberg stories with custom CSS.
 
