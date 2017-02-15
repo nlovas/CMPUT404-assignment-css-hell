@@ -1,0 +1,203 @@
+/* The good CSS page */
+@import url('https://fonts.googleapis.com/css?family=Concert One');
+
+
+body {
+	background: #2d2d2d;/*linear-gradient(white, #477bd1) fixed;  #4286f4, #2152a0 */
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-color: yellow;
+	}
+
+/*How to create a fixed sidebar with CSS
+http://bobbelderbos.com/2012/03/how-to-make-a-fixed-sidebar-or-header-with-css/*/
+#container {
+
+	margin-left: 10%;
+	margin-right: 20%;
+	/*border: .5pt solid black; */
+	/*border-radius: 25px; */
+	padding: .5em;
+	background: #ff00d8;
+}
+
+#sidebar {
+  	position: fixed;
+  	right: 0;
+  	top:0;
+	bottom:5%;
+  	background: #dddddd;
+  	width: 15em;
+  	padding: 10px;
+  }
+
+#navigation{
+
+	position: relative;
+	top: 5%;
+	bottom: 50%;
+
+}
+
+.btn {
+	
+	font-size: 14pt;
+	padding: 2em;
+	
+
+}
+
+
+#topcontainer{
+		/*CSS Gradients:
+	https://www.w3schools.com/css/css3_gradients.asp*/
+ background: red; /* For browsers that do not support gradients */
+  /* For Safari 5.1 to 6.0 */
+  background: -webkit-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+  /* For Opera 11.1 to 12.0 */
+  background: -o-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+  /* For Fx 3.6 to 15 */
+  background: -moz-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+  /* Standard syntax */
+  background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+	margin-left:10%;
+	margin-right:20%;
+	height: 4em;
+	margin-bottom: 0;
+
+}
+
+#name{
+
+	background: yellow;
+	margin-left: 10%;
+	margin-right: 20%;
+	margin-top: 1em;	
+	height: 6em;
+	margin-bottom: 0;
+	
+
+}
+
+.btn {
+	width: 100%;
+	height: 10%;
+	background: grey;
+}
+
+h1 {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 60pt;
+	/*margin-left: 10%;
+	margin-right: 20%; */
+	/*margin-bottom: 1%;*/
+	
+}
+
+h2 {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 34pt;
+	/*margin-left: 10%;
+	margin-right: 30%;*/
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+h3 {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 30pt;
+	margin-left: 1%;
+}
+
+fakeheader {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 20pt;
+}
+
+
+figcaption {
+	font-size: 9pt;
+	margin-left: 10%;
+	
+}
+
+figure.right{
+
+	float: right;
+	margin-right: 5em;
+	white-space: nowrap;
+
+}
+
+figure.left{
+
+	float: left;
+	margin-left: 9em;
+	white-space: nowrap;
+
+}
+
+.holdleft{
+	
+	float: left;
+	width: 550px;
+	margin-left: 8em;
+	
+	
+}
+
+.holdright{
+	
+	float: right;
+	width: 550px;
+	margin-right: 6em;
+	
+	
+}
+
+p {
+text-indent: 3em;
+}
+
+
+/*
+How to prevent parents of floated elements frpom collapsing:
+http://stackoverflow.com/a/11597829
+Answered on stack Overflow by A.M.K (http://stackoverflow.com/users/900747/a-m-k)
+*/
+.box {
+
+	
+	display: inline-block;
+    	width: 100%; 
+
+}
+
+img{
+	border: 5pt solid blue;
+	background: white; /* some of my images have transparent backgrounds*/
+}
+
+#artwork{
+
+/*
+Creating a 3-column layout:
+https://www.w3schools.com/css/css3_multiple_columns.asp
+*/
+
+column-count: 3;
+ -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+
+
+
+}
+
+.rel{
+
+position: relative;
+width: 23em;
+height: 20em;
+overflow: hidden;
+border: .5pt solid black;
+
+}

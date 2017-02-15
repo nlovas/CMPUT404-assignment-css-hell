@@ -57,6 +57,14 @@ http://www.squareonemd.co.uk/how-to-crop-an-image-with-a-css-class/
 Creating a 3-column layout:
 https://www.w3schools.com/css/css3_multiple_columns.asp
 
+CSS Gradients:
+https://www.w3schools.com/css/css3_gradients.asp
+
+5 Stages of software development quiz photo:
+https://i.redd.it/e5uylwsqzizx.jpg
+
+FeministHackerBarbie Image:
+pic.twitter.com/Wjr2d8kkyV
 
 
 You will skin 3 project gutenberg stories with custom CSS.
