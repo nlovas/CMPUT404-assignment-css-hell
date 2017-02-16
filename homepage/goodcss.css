@@ -1,0 +1,267 @@
+/* The good CSS page */
+/*
+This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+*/
+@import url('https://fonts.googleapis.com/css?family=Concert One');
+
+
+body {
+	background: #2d2d2d;/*linear-gradient(white, #477bd1) fixed;  #4286f4, #2152a0 */
+}
+
+/*How to create a fixed sidebar with CSS
+http://bobbelderbos.com/2012/03/how-to-make-a-fixed-sidebar-or-header-with-css/*/
+#container {
+
+	margin-left: 10%;
+	margin-right: 20%;
+	/*border: .5pt solid black; */
+	/*border-radius: 25px; */
+	padding: .5em;
+	background: #dddddd;
+}
+
+#sidebar {
+  	position: fixed;
+  	right: 3%;
+  	top:0;
+	bottom:0;
+  	background: #dddddd;
+  	width: 15em;
+  	padding: 10px;
+  }
+
+#navigation{
+
+	position: relative;
+	top: 8%;
+	bottom: 50%;
+	/*text-align: center;*/
+}
+
+.linkcontainer {
+
+/*How to center text both horizontally and vertically
+http://stackoverflow.com/a/22218694
+On stack Overflow answered by Danield (http://stackoverflow.com/users/703717/danield) */
+	/*display: flex;
+	justify-content: center;
+	align-items: center;*/
+	font-size: 16pt;
+	margin:1em;
+	background:grey;
+	text-align: center;
+
+	/* How to make a div grow with your text
+	http://stackoverflow.com/a/16134175
+	on Stack Overflow answered by Niet the Dark Absol (http://stackoverflow.com/users/507674/niet-the-dark-absol)
+*/
+	margin-top: .5em;
+	margin-bottom: .5em;
+	padding: 1em;
+	/*border-style: solid;
+	border-radius: 15px;
+	border-width: .5pt;*/
+	
+
+}
+
+.info{
+
+	font-size: 11pt;
+
+}
+
+
+#topcontainer{
+	background: grey;
+	margin-left:10%;
+	margin-right:20%;
+	height: 4em;
+	margin-bottom: 0;
+
+}
+
+#name{
+
+	background: #dddddd;
+	margin-left: 10%;
+	margin-right: 20%;
+	margin-top: 1em;	
+	height: 6em;
+	margin-bottom: 0;
+	
+
+}
+
+
+
+h1 {
+	font-family: 'Concert One';
+	font-size: 60pt;
+	/*margin-left: 10%;
+	margin-right: 20%; */
+	/*margin-bottom: 1%;*/
+	
+}
+
+h2 {
+	font-family: 'Concert One';
+	font-size: 34pt;
+	/*margin-left: 10%;
+	margin-right: 30%;*/
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+h3 {
+	font-family: 'Concert One';
+	font-size: 30pt;
+	margin-left: 1%;
+}
+
+fakeheader {
+	font-family: 'Concert One';
+	font-size: 20pt;
+}
+
+
+figcaption {
+	font-size: 9pt;
+	margin-left: 10%;
+	text-align: center;
+	
+}
+
+figure.right{
+
+	float: right;
+	margin-right: 5em;
+	white-space: nowrap;
+
+}
+
+figure.left{
+
+	float: left;
+	margin-left: 9em;
+	white-space: nowrap;
+
+}
+
+.holdleft{
+	
+	float: left;
+	width: 550px;
+	margin-left: 8em;
+	
+	
+}
+
+.holdright{
+	
+	float: right;
+	width: 550px;
+	margin-right: 6em;
+	
+	
+}
+
+p {
+text-indent: 1.5em;
+}
+
+
+/*
+How to prevent parents of floated elements frpom collapsing:
+http://stackoverflow.com/a/11597829
+Answered on stack Overflow by A.M.K (http://stackoverflow.com/users/900747/a-m-k)
+*/
+.box {
+
+	
+	display: inline-block;
+    	width: 100%; 
+
+}
+
+img{
+	border: .5pt solid black;
+	background: white; /* some of my images have transparent backgrounds*/
+}
+
+#artwork{
+
+/*
+Creating a 3-column layout:
+https://www.w3schools.com/css/css3_multiple_columns.asp
+*/
+
+column-count: 3;
+ -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+
+
+
+}
+
+.rel{
+
+position: relative;
+width: 23em;
+height: 20em;
+overflow: hidden;
+border: .5pt solid black;
+
+}
+
+a{
+	color: black;
+	
+
+}
+
+a:visited{
+
+	color: black;
+
+}
+
+a:hover{
+	color: blue;
+
+}
+
+.hideme{
+	display:none;
+}
+
+lang{
+	font-style:italic;
+	font-size: 11pt;
+}
+
+.small{
+	width: 260px;
+}
+
+.medium{
+	width: 300px;
+}
+
+.mediumtwo{
+	width: 375px;
+}
+
+.large{
+	width: 500px;
+}
+
+.extralarge {
+	width: 600px;
+}
+
+.cosplay{
+	width: 400px;
+}
+
